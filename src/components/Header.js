@@ -88,7 +88,7 @@ const Header = () => {
         <div className="nav__wrapper d-flex align-items-center justify-content-between">
           <Link style={{cursor:'pointer'}} to='/' className="logo">
             <img src={logo} alt="logo" />
-            <h5>Tasty Treat</h5>
+            <h5>Doughy Donuts</h5>
           </Link>
 
           {/* ======= menu ======= */}

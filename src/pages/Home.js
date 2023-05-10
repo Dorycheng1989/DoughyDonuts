@@ -107,8 +107,7 @@ const Home = () => {
                   </h1>
 
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Qui magni delectus tenetur autem, sint veritatis!
+                    so tasty n fluffy Doughnuts
                   </p>
 
                   <div className="hero__btns d-flex align-items-center gap-5 mt-4">
@@ -161,14 +160,6 @@ const Home = () => {
                 <h2 className="feature__title">
                   we will <span>take care</span>
                 </h2>
-                <p className="mb-1 mt-4 feature__text">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Dolor, officiis?
-                </p>
-                <p className="feature__text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Aperiam, eius.{" "}
-                </p>
               </Col>
 
               {featureData.map((item, index) => (
@@ -207,12 +198,12 @@ const Home = () => {
                   </button>
                   <button
                     className={`d-flex align-items-center gap-2 ${
-                      category === "BURGER" ? "foodBtnActive" : ""
+                      category === "DONUTS" ? "foodBtnActive" : ""
                     } `}
-                    onClick={() => setCategory("BURGER")}
+                    onClick={() => setCategory("DONUTS")}
                   >
                     <img src={foodCategoryImg01} alt="" />
-                    Burger
+                    Donuts
                   </button>
 
                   <button
@@ -259,21 +250,17 @@ const Home = () => {
                     Why <span>Tasty Treat?</span>
                   </h2>
                   <p className="tasty__treat-desc">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolorum, minus. Tempora reprehenderit a corporis velit,
-                    laboriosam vitae ullam, repellat illo sequi odio esse iste
-                    fugiat dolor, optio incidunt eligendi deleniti!
+                    Your local Doughnuts Kitchen and delivery. Very tasty and fluffy dunuts, quick delivery and guaranteed quality!
                   </p>
 
                   <ListGroup className="mt-4">
                     <ListGroupItem className="border-0 ps-0">
                       <p className=" choose__us-title d-flex align-items-center gap-2 ">
                         <i className="ri-checkbox-circle-line"></i> Fresh and
-                        tasty foods
+                        tasty
                       </p>
                       <p className="choose__us-desc">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing
-                        elit. Quia, voluptatibus.
+                        Our food is fresh and readily made.Straight off the ovens.
                       </p>
                     </ListGroupItem>
 
@@ -283,8 +270,7 @@ const Home = () => {
                         support
                       </p>
                       <p className="choose__us-desc">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Qui, earum.
+                        consistent and timely delivery. very quick and proffesional riders.
                       </p>
                     </ListGroupItem>
 
@@ -294,8 +280,7 @@ const Home = () => {
                         any location{" "}
                       </p>
                       <p className="choose__us-desc">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Qui, earum.
+                        We deliver to all locations within Georgia.
                       </p>
                     </ListGroupItem>
                   </ListGroup>
@@ -331,9 +316,7 @@ const Home = () => {
                     What our <span>customers</span> are saying
                   </h2>
                   <p className="testimonial__desc">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Distinctio quasi qui minus quos sit perspiciatis inventore
-                    quis provident placeat fugiat!
+                    See what other customers have to say about us!
                   </p>
 
                   <TestimonialSlider />

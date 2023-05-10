@@ -11,21 +11,21 @@ import "../../../styles/category.css";
 
 const categoryData = [
   {
-    display: "Fastfood",
+    display: "Plain",
     imgUrl: categoryImg01,
   },
   {
-    display: "Pizza",
+    display: "Stuffings",
     imgUrl: categoryImg02,
   },
 
   {
-    display: "Asian Food",
+    display: "Toppings",
     imgUrl: categoryImg03,
   },
 
   {
-    display: "Row Meat",
+    display: "Packaging",
     imgUrl: categoryImg04,
   },
 ];

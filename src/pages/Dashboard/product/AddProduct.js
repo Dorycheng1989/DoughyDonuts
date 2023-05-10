@@ -105,17 +105,6 @@ const AddProduct = () => {
     useEffect(() => {
         dispatch(getCategory());
     }, [dispatch]);
-
-    //lưu object category trong database post
-    // const handleClickOption = (item) => {
-    //     let categoryFilter = category.find(categories => categories.id === item);
-    //     setValue('category', {
-    //         id: categoryFilter.id,
-    //         name: categoryFilter.name
-    //     });
-    //     setValue('category_id', item);
-    // }
-
     return (
         <Home name='Add product'>
             <div id="page-wrapper">
